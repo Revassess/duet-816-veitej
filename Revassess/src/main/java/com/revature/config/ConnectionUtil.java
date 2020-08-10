@@ -34,18 +34,20 @@ public class ConnectionUtil {
 
 	//implement this method with a callable statement that calls the absolute value sql function
 	public long callAbsoluteValueFunction(long value) throws SQLException {
-		String sql = "select ABS(?)";
+
 		Connection c=connect();
+
+
+		String sql = "{?= call abs(?)}";
 		CallableStatement cs = c.prepareCall(sql);
-		cs.setLong(1,value);
-		cs.registerOutParameter(1, Types.LONGNVARCHAR);
 
+		cs.setLong(1, value);
+
+		cs.registerOutParameter(1, Types.LONGVARCHAR);
+		
 		cs.execute();
-		long output=cs.getLong(1);
 
-
-
-		return output;
+		return cs.getLong(1);
 	}
 
 	

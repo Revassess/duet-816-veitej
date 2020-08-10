@@ -10,7 +10,7 @@ import org.junit.runners.Suite.SuiteClasses;
     Answer1Tests.class,
     Answer2Tests.class,
     Answer3Tests.class,
-    Answer3Tests.class,
+    Answer4Tests.class,
     PointsTests.class
 })
 public class Tier4Tests {
