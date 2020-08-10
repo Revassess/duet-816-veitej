@@ -1,1 +1,1 @@
-insert into app_user (username,password,first_name,last_name,role_id) values ('test','test','test','test',4);
+insert into app_user (username,password,first_name,last_name,role_id) values ('veitej','test','james','v',4);

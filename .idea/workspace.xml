@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75d8a88c-b416-472b-a520-aa7effd501b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revassess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/setup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/setup.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
       <updated>1597082600578</updated>
       <workItem from="1597082601615" duration="1320000" />
       <workItem from="1597086610106" duration="44000" />
+      <workItem from="1597087122150" duration="523000" />
     </task>
     <servers />
   </component>
@@ -51,6 +50,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="349" y="361" key="#SQL_Dialects" timestamp="1597087644698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="349" y="361" key="#SQL_Dialects/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1597087644698" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597087205508">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1597087205508" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597086653045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
