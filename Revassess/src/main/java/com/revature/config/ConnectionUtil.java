@@ -16,11 +16,11 @@ public class ConnectionUtil {
 	private static ConnectionUtil cu;
 	
 	// add your jdbc url
-	public static final String URL = "";
+	public static final String URL = "revature-project0.chbhk7uwz5xg.us-west-2.rds.amazonaws.com:5432/revasses";
 	// add your jdbc username
-	public static final String USERNAME = "";
+	public static final String USERNAME = "veitej";
 	// add your jdbc password
-	public static final String PASSWORD = "";
+	public static final String PASSWORD = "Diablos96";
 	// name of the created stored procedure in tier 3
 	public static final String TIER_3_PROCEDURE_NAME = "";
 	// name of the created sequence in tier 3
