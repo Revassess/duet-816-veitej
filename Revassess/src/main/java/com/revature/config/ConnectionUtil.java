@@ -1,6 +1,6 @@
 package com.revature.config;
 
-import java.sql.Connection;
+import java.sql.*;
 
 /**
  * 
@@ -27,15 +27,27 @@ public class ConnectionUtil {
 	public static final String TIER_3_SEQUENCE_NAME = "custom_sequence";
 
 	// implement this method to connect to the db and return the connection object
-	public Connection connect(){
-		return null;
+	public Connection connect() throws SQLException {
+		return DriverManager.getConnection(URL,USERNAME,PASSWORD);
 	}
 
 
 	//implement this method with a callable statement that calls the absolute value sql function
-	public long callAbsoluteValueFunction(long value){
-		return value;
+	public long callAbsoluteValueFunction(long value) throws SQLException {
+		String sql = "select ABS(?)";
+		Connection c=connect();
+		CallableStatement cs = c.prepareCall(sql);
+		cs.setLong(1,value);
+		cs.registerOutParameter(1, Types.LONGNVARCHAR);
+
+		cs.execute();
+		long output=cs.getLong(1);
+
+
+
+		return output;
 	}
+
 	
 
 	//make the class into a singleton
