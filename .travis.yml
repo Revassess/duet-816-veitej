@@ -4,6 +4,6 @@ git:
     depth: false
 script: ./build.sh
 notifications:
-    email: james.veitengruber@revature.net
+    email: 
     #enter your email address below
         - james.veitengruber@revature.net
