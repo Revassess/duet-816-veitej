@@ -16,7 +16,7 @@ public class ConnectionUtil {
 	private static ConnectionUtil cu;
 	
 	// add your jdbc url
-	public static final String URL = "revature-project0.chbhk7uwz5xg.us-west-2.rds.amazonaws.com:5432/revasses";
+	public static final String URL = "jdbc:postgresql://revature-project0.chbhk7uwz5xg.us-west-2.rds.amazonaws.com:5432/revasses";
 	// add your jdbc username
 	public static final String USERNAME = "veitej";
 	// add your jdbc password
