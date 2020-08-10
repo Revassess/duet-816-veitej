@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75d8a88c-b416-472b-a520-aa7effd501b4" name="Default Changelist" comment="" />
+    <list default="true" id="75d8a88c-b416-472b-a520-aa7effd501b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revassess/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/answer2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/answer2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Revassess/src/sql/setup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Revassess/src/sql/setup.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597082600578</updated>
       <workItem from="1597082601615" duration="1320000" />
+      <workItem from="1597086610106" duration="44000" />
     </task>
     <servers />
   </component>
@@ -45,9 +51,9 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597083961758">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597086653045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1597083961758" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.7.1920.1040@0.0.1920.1040" timestamp="1597086653045" />
   </component>
 </project>
