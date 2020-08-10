@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe85eace-5115-41c0-9daf-6573790969a9" name="Default Changelist" comment="" />
+    <list default="true" id="fe85eace-5115-41c0-9daf-6573790969a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/sql/setup.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/sql/setup.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,6 +151,7 @@
       <updated>1597082216280</updated>
       <workItem from="1597082217466" duration="383000" />
       <workItem from="1597082887946" duration="919000" />
+      <workItem from="1597086655361" duration="363000" />
     </task>
     <servers />
   </component>
